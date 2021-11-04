@@ -7,6 +7,7 @@
 - change_json.py 修改影片是否观看的记录
 - gen.py 根据爬取的影片以及 vis.json 自动生成 html
 - vis.json 影片是否看过的记录
+- - 如需重新生成，请将其初始化为`{}`
 
 
 ## 如何使用
