@@ -20,3 +20,9 @@ pip install -r requirements.txt
 ```cmd
 python main.py
 ```
+
+## 效果预览
+
+<img src="https://img-blog.csdnimg.cn/037cbf7f1d674176be2786e88f8b5ccc.jpg">
+
+<img src="https://img-blog.csdnimg.cn/ba7aa56323a14ca6a145733913b255cc.jpg">
