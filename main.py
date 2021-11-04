@@ -85,11 +85,12 @@ if __name__ == "__main__":
     while choice != 3:
         if choice == 1:
             change_json(df.loc[:,"title"])
-            break
+            menu.show()
+            choice = (int(input("请输入选择：")))
         elif choice == 2:
             gen(df, "vis.json")
             print("已将文件生成于：{}\out.html ".format(os.getcwd()))
-            break
+            choice = (int(input("请输入选择：")))
         else:
             choice = (int(input("请重新输入：")))
 

@@ -14,7 +14,7 @@ def change_json(df):
             os.system("cls")
             print(title)
             try:
-                key = int(input("输入1表示看过，输入0表示没看过，输入2表示不清楚：\n"))
+                key = int(input("输入1表示看过，输入0表示没看过(或直接回车)，输入2表示不清楚：\n"))
                 d[title] = key
             except:
                 pass
